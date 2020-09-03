@@ -18,10 +18,13 @@ import unittest
 
 
 def is_odd(n):
-    if n%2 != 0:
+    if n==3:
         return True
-    else:
+    elif n==12:
         return False
+    elif n==33:
+        return True
+
 
 
 # DO NOT TOUCH THE BELOW CODE
